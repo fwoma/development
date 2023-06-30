@@ -90,7 +90,4 @@
         </repository>
     </distributionManagement>
     
-    <servers>
-        <server>
-            <id>tomcat</id>
-            <username>your
+  
