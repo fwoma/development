@@ -20,8 +20,8 @@
         <logback.version>1.1.3</logback.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-	   <sonar.host.url>http://localhost:9000/</sonar.host.url>
-        <sonar.login>846da14c5dd24dd8bd05d129f0ab6ec0dc9172bf</sonar.login>
+	   <sonar.host.url>http://172.31.27.81:9000/</sonar.host.url>
+        <sonar.login>e0bc6e5be4713a76cb3807daccc0a72e4c9971da</sonar.login>
 
     </properties>
 
@@ -216,12 +216,12 @@
         <repository>
             <id>nexus</id>
             <name>Womm Releases Nexus Repository</name>
-            <url>http://localhost:8081/repository/OMA-Release/</url>
+            <url>http://3.143.226.90:8081/repository/BofA-Release/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
             <name>Woma Snapshot Nexus Repository</name>
-            <url>http://localhost:8081/repository/OMA-Snapshot/</url>
+            <url>http://3.143.226.90:8081/repository/BofA-Snapshot/</url>
         </snapshotRepository>
     </distributionManagement>	
 </project>
