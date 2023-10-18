@@ -215,12 +215,12 @@
  <distributionManagement>
         <repository>
             <id>nexus</id>
-            <name>Womm Releases Nexus Repository</name>
+            <name>admin</name>
             <url>http://172.31.16.74:8081/repository/BofA-Release/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
-            <name>Woma Snapshot Nexus Repository</name>
+            <name>admin</name>
             <url>http://172.31.16.74:8081/repository/BofA-Snapshot/</url>
         </snapshotRepository>
     </distributionManagement>	
