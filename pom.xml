@@ -5,7 +5,7 @@
     <artifactId>vprofile</artifactId>
     <packaging>war</packaging>
     <version>v2</version>
-    <name>Visualpathit VProfile Webapp</name>
+    <name>UAT-TESTING-APP</name>
     <url>http://maven.apache.org</url>
     <properties>
         <spring.version>4.2.0.RELEASE</spring.version>
@@ -20,8 +20,8 @@
         <logback.version>1.1.3</logback.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-	   <sonar.host.url>http://172.31.27.81:9000/</sonar.host.url>
-        <sonar.login>e0bc6e5be4713a76cb3807daccc0a72e4c9971da</sonar.login>
+	   <sonar.host.url>http://172.31.20.208:9000/</sonar.host.url>
+        <sonar.login>a597aa0c2310906aa3bfba683e3bdc424f0293f3</sonar.login>
 
     </properties>
 
